@@ -1,0 +1,31 @@
+# Core Dependencies (pins relaxed for Python 3.14; use wheels, avoid source build)
+streamlit>=1.54.0
+pandas>=2.2
+plotly>=6.5.0
+
+# Financial Data
+yfinance==0.2.44
+
+# PDF Processing
+PyMuPDF==1.26.7
+pypdf==6.6.2
+
+# AI/ML (Free Tier)
+huggingface-hub==0.34.0
+requests==2.32.4
+
+# Utilities
+python-dotenv==1.1.1
+beautifulsoup4==4.13.4
+lxml==6.0.2
+
+# Testing
+pytest==8.3.3
+pytest-cov==7.0.0
+
+# Optional (for future enhancements)
+# LangChain and ChromaDB are very dependency‑heavy and still shaky on Python 3.14.
+# Keep them separate so they can’t break core installs.
+
+# langchain==1.2.9
+# chromadb==1.4.1
